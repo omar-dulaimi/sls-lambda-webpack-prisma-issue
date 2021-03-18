@@ -1,0 +1,11 @@
+export { AggregateAreaArgs } from "./AggregateAreaArgs";
+export { CreateAreaArgs } from "./CreateAreaArgs";
+export { DeleteAreaArgs } from "./DeleteAreaArgs";
+export { DeleteManyAreaArgs } from "./DeleteManyAreaArgs";
+export { FindFirstAreaArgs } from "./FindFirstAreaArgs";
+export { FindManyAreaArgs } from "./FindManyAreaArgs";
+export { FindUniqueAreaArgs } from "./FindUniqueAreaArgs";
+export { GroupByAreaArgs } from "./GroupByAreaArgs";
+export { UpdateAreaArgs } from "./UpdateAreaArgs";
+export { UpdateManyAreaArgs } from "./UpdateManyAreaArgs";
+export { UpsertAreaArgs } from "./UpsertAreaArgs";

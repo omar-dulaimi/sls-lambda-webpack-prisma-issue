@@ -1,0 +1,11 @@
+export { FindUniqueAreaResolver } from "./Area/FindUniqueAreaResolver";
+export { FindFirstAreaResolver } from "./Area/FindFirstAreaResolver";
+export { FindManyAreaResolver } from "./Area/FindManyAreaResolver";
+export { CreateAreaResolver } from "./Area/CreateAreaResolver";
+export { DeleteAreaResolver } from "./Area/DeleteAreaResolver";
+export { UpdateAreaResolver } from "./Area/UpdateAreaResolver";
+export { DeleteManyAreaResolver } from "./Area/DeleteManyAreaResolver";
+export { UpdateManyAreaResolver } from "./Area/UpdateManyAreaResolver";
+export { UpsertAreaResolver } from "./Area/UpsertAreaResolver";
+export { AggregateAreaResolver } from "./Area/AggregateAreaResolver";
+export { GroupByAreaResolver } from "./Area/GroupByAreaResolver";

@@ -1,0 +1,20 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["groupBy"]
+  binaryTargets   = ["native", "rhel-openssl-1.0.x"]
+}
+
+generator typegraphql {
+  provider = "typegraphql-prisma"
+  output   = "../prisma/generated/type-graphql"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Area {
+  id           String   @id @default(cuid()) @db.Char(30)
+  name         String   @db.MediumText
+}

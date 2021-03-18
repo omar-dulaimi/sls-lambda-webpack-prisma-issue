@@ -1,0 +1,13 @@
+package-lock.json
+node_modules
+.idea
+.vscode
+*.log
+.DS_Store
+
+yarn\.lock
+.env
+dist
+.serverless
+.yarn
+.webpack
